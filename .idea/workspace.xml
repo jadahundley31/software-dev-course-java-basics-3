@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5255b3c-d517-44b9-92ad-783cf1cec81d" name="Changes" comment="Addimg images" />
+    <list default="true" id="a5255b3c-d517-44b9-92ad-783cf1cec81d" name="Changes" comment="wrote conditionals for three functions in the ConditionalExercises.java file. All three passed the test.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoopExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoopExercises.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +22,77 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jadahundley31"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jadahundley31/software-dev-course-java-basics-3.git",
+    "accountId": "97ed0d92-c5d2-4b33-bd29-868690bb490a"
+  }
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.7505496811702147E-253" />
+      <entry key="MS500" value="2.8095385855807E-51" />
+      <entry key="S2" value="2.354261812738511E-13" />
+      <entry key="S5" value="1.0741157866820034E-5" />
+      <entry key="S10" value="0.004358261528260934" />
+      <entry key="S30" value="0.25584670571503715" />
+      <entry key="S60" value="0.7646883108577386" />
+      <entry key="M2" value="1.74854490887106" />
+      <entry key="M5" value="4.628695640905382" />
+      <entry key="M10" value="8.361561001451452" />
+      <entry key="M15" value="11.520933676443647" />
+      <entry key="M30" value="19.602380622381492" />
+      <entry key="H1" value="30.366205548835744" />
+      <entry key="H2" value="40.665231855342654" />
+      <entry key="H4" value="49.07796864623165" />
+      <entry key="D1" value="90.23632108141204" />
+      <entry key="W1" value="120.88940588022726" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000006084" />
+      <entry key="S2" value="1.0008831829858995" />
+      <entry key="S5" value="1.0600371789970924" />
+      <entry key="S10" value="1.2450248538354678" />
+      <entry key="S30" value="1.625753632834424" />
+      <entry key="S60" value="1.7910459106995142" />
+      <entry key="M2" value="1.889407617855567" />
+      <entry key="M5" value="1.9542020346579168" />
+      <entry key="M10" value="1.9768590023023958" />
+      <entry key="M15" value="1.985380302433867" />
+      <entry key="M30" value="2.021973789294227" />
+      <entry key="H1" value="2.1686025205396273" />
+      <entry key="H2" value="2.415852654307548" />
+      <entry key="H4" value="2.8422260956185457" />
+      <entry key="D1" value="10.628438661470733" />
+      <entry key="W1" value="17.40199899268763" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="4.026818575356735E-5" />
+      <entry key="MS500" value="0.13212725507021797" />
+      <entry key="S2" value="0.6033655359728443" />
+      <entry key="S5" value="0.8630920488019739" />
+      <entry key="S10" value="1.1229014410074016" />
+      <entry key="S30" value="1.8134193804085148" />
+      <entry key="S60" value="2.509357460120655" />
+      <entry key="M2" value="3.6061826752572492" />
+      <entry key="M5" value="6.562755270885262" />
+      <entry key="M10" value="10.32420998244041" />
+      <entry key="M15" value="13.494405200790531" />
+      <entry key="M30" value="21.615139176275683" />
+      <entry key="H1" value="32.528013052242436" />
+      <entry key="H2" value="43.076642273911354" />
+      <entry key="H4" value="51.917532644298404" />
+      <entry key="D1" value="100.86387225952497" />
+      <entry key="W1" value="138.2912286228481" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -35,18 +109,29 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "JUnit.ConditionalExercisesTests.executor": "Run",
+    "JUnit.LoopExercisesTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/mikel/projects/java-new-curriculum/software-dev-course-classes-and-objects-2/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LoopExercisesTests">
     <configuration name="ConditionalExercisesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software-dev-course-java-basics-3" />
       <option name="PACKAGE_NAME" value="" />
@@ -56,11 +141,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoopExercisesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software-dev-course-java-basics-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoopExercisesTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoopExercisesTests" />
         <item itemvalue="JUnit.ConditionalExercisesTests" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10315.125" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10315.125" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -90,9 +193,13 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed Initial Draft" />
     <MESSAGE value="Addimg images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addimg images" />
+    <MESSAGE value="wrote conditionals for three functions in the ConditionalExercises.java file. All three passed the test." />
+    <option name="LAST_COMMIT_MESSAGE" value="wrote conditionals for three functions in the ConditionalExercises.java file. All three passed the test." />
   </component>
 </project>
